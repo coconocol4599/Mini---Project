@@ -1,8 +1,10 @@
 Mini-Project
 🏦 Bank Management System (C Project)
+
 A simple Bank Management System implemented in C that allows users to perform basic banking operations such as account creation, login, deposits, withdrawals, transfers, and transaction history using CSV file storage.
 
 📌 Project Objective
+
 The objective of this project is to build a console-based banking application that demonstrates:
 
 📂 File handling in C
@@ -10,17 +12,21 @@ The objective of this project is to build a console-based banking application th
 🔐 User authentication
 💰 Banking transaction simulation
 🧠 Structured programming concepts
+
 🛠️ Technologies Used
+
 Technology	Purpose
 💻 C Programming	Core implementation
 📂 File Handling	Data storage
 📑 CSV Files	Simulated database
 🧰 Standard Libraries	Input/output & string operations
+
 Libraries Used
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <conio.h>
+
 📁 Project File Structure
 The system stores data in two CSV files.
 
@@ -32,6 +38,7 @@ AccountNo	Unique account number
 Name	Customer name
 PIN	Account security PIN
 AccountType	Savings / Current
+
 Example:
 
 AccountNo,Name,PIN,AccountType
@@ -48,6 +55,7 @@ Example:
 
 AccountNo,Type,Amount,Balance
 1001,DEPOSIT,2000,5000
+
 ⚙️ System Workflow
 Start Program
       ↓
@@ -136,6 +144,7 @@ After login, users can perform the following operations:
 4️⃣ Transfer Money
 5️⃣ View Transaction History
 6️⃣ Logout
+
 ✨ Features
 ✅ Account creation ✅ Secure login system ✅ Hidden PIN entry ✅ Deposit and withdrawal system ✅ Fund transfer between accounts ✅ Transaction history tracking ✅ Minimum balance validation ✅ CSV-based data storage
 
@@ -144,6 +153,7 @@ After login, users can perform the following operations:
 ❌ PIN not encrypted
 ❌ No real database integration
 ❌ Single-user environment
+
 🚀 Future Improvements
 Possible upgrades:
 
@@ -153,7 +163,9 @@ Possible upgrades:
 👨‍💼 Admin dashboard
 🔐 Password encryption
 📊 Detailed account analytics
+
 📚 Conclusion
+
 The Bank Management System in C demonstrates how basic banking operations can be implemented using file handling and structured programming.
 
 This project helps in understanding:
